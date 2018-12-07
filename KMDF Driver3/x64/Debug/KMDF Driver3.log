@@ -1,0 +1,49 @@
+﻿Сборка начата 14.12.2015 14:16:13.
+     1>Проект "C:\Users\Murloc\Dropbox\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" в узле 2 (целевые объекты Build).
+     1>DriverBuildNotifications:
+         Building 'KMDF Driver3' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+       StampInf:
+         C:\Program Files (x86)\Windows Kits\10\bin\x86\stampinf.exe -d "*" -a "amd64" -v "*" -k "1.15"  -x -f x64\Debug\KMDFDriver3.inf 
+         Stamping x64\Debug\KMDFDriver3.inf [Version] section with DriverVer=12/14/2015,14.16.13.824
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Ix64\Debug\ /Zi /nologo /W4 /WX /Od /Oi /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0A00 /D WINVER=0x0A00 /D WINNT=1 /D NTDDI_VERSION=0x0A000000 /D DBG=1 /D KMDF_VERSION_MAJOR=1 /D KMDF_VERSION_MINOR=15 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Zc:inline /GR- /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\shared\warning.h" /errorReport:prompt /kernel -cbstring -d2epilogunwind /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ Driver.c
+         Driver.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Murloc\Dropbox\KMDF Driver3\x64\Debug\KMDFDriver3.sys" /VERSION:"10.0" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\km\x64\BufferOverflowFastFailK.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\km\x64\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\km\x64\hal.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\km\x64\wmilib.lib" "C:\Program Files (x86)\Windows Kits\10\lib\wdf\kmdf\x64\1.15\WdfLdr.lib" "C:\Program Files (x86)\Windows Kits\10\lib\wdf\kmdf\x64\1.15\WdfDriverEntry.lib" /NODEFAULTLIB /MANIFEST:NO /Debug /PDB:"C:\Users\Murloc\Dropbox\KMDF Driver3\x64\Debug\KMDFDriver3.pdb" /SUBSYSTEM:NATIVE,"10.00" /Driver /OPT:REF /OPT:ICF /ENTRY:"FxDriverEntry" /RELEASE /IMPLIB:"C:\Users\Murloc\Dropbox\KMDF Driver3\x64\Debug\KMDFDriver3.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X64 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 /osversion:10.0 /pdbcompress /debugtype:pdata x64\Debug\Driver.obj
+         KMDF Driver3.vcxproj -> C:\Users\Murloc\Dropbox\KMDF Driver3\x64\Debug\KMDFDriver3.sys
+     1>Проект "C:\Users\Murloc\Dropbox\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" (1) выполняет сборку "C:\Users\Murloc\Dropbox\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" (1:2) в узле 2 (целевые объекты TestSign).
+     1>TestSign:
+         C:\Program Files (x86)\Windows Kits\10\bin\x86\signtool.exe sign /ph /sha1 "84569F1B14ACC4C0946A8D6DB6F59AF6E2A92F84" 
+         Done Adding Additional Store
+         Successfully signed: C:\Users\Murloc\Dropbox\KMDF Driver3\x64\Debug\KMDFDriver3.sys
+         
+     1>Сборка проекта "C:\Users\Murloc\Dropbox\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" завершена (целевые объекты TestSign).
+     1>ApiValidator:
+         cmd.exe /C "C:\Users\Murloc\AppData\Local\Temp\tmp31af16f80cac444b9a2a7de9a2ede35b.cmd"
+         "C:\Program Files (x86)\Windows Kits\10\bin\x64\ApiValidator.exe" -DriverPackagePath:"C:\Users\Murloc\Dropbox\KMDF Driver3\x64\Debug\\" -SupportedApiXmlFiles:"C:\Program Files (x86)\Windows Kits\10\build\universalDDIs\x64\UniversalDDIs.xml" -ModuleWhiteListXmlFiles:"C:\Program Files (x86)\Windows Kits\10\build\universalDDIs\x64\ModuleWhiteList.xml" -ApiExtractorExePath:"C:\Program Files (x86)\Windows Kits\10\bin\x64"
+         Driver is a Universal Driver.
+       Inf2Cat:
+         C:\Program Files (x86)\Windows Kits\10\bin\x86\inf2cat.exe /os:10_x64 /driver:"C:\Users\Murloc\Dropbox\KMDF Driver3\x64\Debug\KMDF Driver3\\" 
+         .........................
+         Signability test complete.
+         
+         Errors:
+         None
+         
+         Warnings:
+         None
+         
+         Catalog generation complete.
+         C:\Users\Murloc\Dropbox\KMDF Driver3\x64\Debug\KMDF Driver3\kmdfdriver3.cat
+     1>Проект "C:\Users\Murloc\Dropbox\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" (1) выполняет сборку "C:\Users\Murloc\Dropbox\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" (1:3) в узле 2 (целевые объекты TestSign).
+     1>TestSign:
+         C:\Program Files (x86)\Windows Kits\10\bin\x86\signtool.exe sign /ph /sha1 "84569F1B14ACC4C0946A8D6DB6F59AF6E2A92F84" 
+         Done Adding Additional Store
+         Successfully signed: C:\Users\Murloc\Dropbox\KMDF Driver3\x64\Debug\KMDF Driver3\kmdfdriver3.cat
+         
+     1>Сборка проекта "C:\Users\Murloc\Dropbox\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" завершена (целевые объекты TestSign).
+     1>Сборка проекта "C:\Users\Murloc\Dropbox\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.35

@@ -1,0 +1,91 @@
+Microsoft (R) Build Engine версии 14.0.23107.0
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 23.10.2015 0:20:25.
+Целевой объект "AfterGenerateAppxManifest", указанный в атрибуте AfterTargets для "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.Net.CoreRuntime.targets (68,11)", не существует в проекте и будет пропущен.
+Целевой объект "_GeneratePrisForPortableLibraries", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.Net.CoreRuntime.targets (177,11)", не существует в проекте и будет пропущен.
+Целевой объект "AfterGenerateAppxManifest", указанный в атрибуте AfterTargets для "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.NetNative.targets (126,11)", не существует в проекте и будет пропущен.
+Целевой объект "AfterGenerateAppxManifest", указанный в атрибуте AfterTargets для "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.NetNative.targets (174,11)", не существует в проекте и будет пропущен.
+Целевой объект "BeforeGenerateProjectPriFile", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (149,61)", не существует в проекте и будет пропущен.
+Проект "c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" в узле 1 (целевые объекты build).
+DriverBuildNotifications:
+  Building 'KMDF Driver3' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Using KMDF 1.15.
+InitializeBuildStatus:
+  Обращение к "x64\Release\KMDF Driver3.tlog\unsuccessfulbuild".
+StampInf:
+  C:\Program Files (x86)\Windows Kits\10\bin\x86\stampinf.exe -d "*" -a "amd64" -v "*" -k "1.15"  -x -f x64\Release\KMDFDriver3.inf 
+  Copying "c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\KMDFDriver3.inf" to "x64\Release\KMDFDriver3.inf" for stamping
+  Stamping x64\Release\KMDFDriver3.inf [Version] section with DriverVer=10/23/2015,0.20.25.519
+ClCompile:
+  C:\Program Files (x86)\Windows Kits\10\TOOLS\SDV\bin\interceptor\CL.exe /c /Ix64\Release\ /Zi /nologo /W4 /WX /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0A00 /D WINVER=0x0A00 /D WINNT=1 /D NTDDI_VERSION=0x0A000000 /D KMDF_VERSION_MAJOR=1 /D KMDF_VERSION_MINOR=15 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Zc:inline /GR- /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ Driver.c
+  Driver.c
+Link:
+  C:\Program Files (x86)\Windows Kits\10\TOOLS\SDV\bin\interceptor\link.exe /ERRORREPORT:QUEUE /OUT:"c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDFDriver3.sys" /VERSION:"10.0" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\km\x64\BufferOverflowFastFailK.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\km\x64\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\km\x64\hal.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\km\x64\wmilib.lib" "C:\Program Files (x86)\Windows Kits\10\lib\wdf\kmdf\x64\1.15\WdfLdr.lib" "C:\Program Files (x86)\Windows Kits\10\lib\wdf\kmdf\x64\1.15\WdfDriverEntry.lib" /NODEFAULTLIB /MANIFEST:NO /Debug /PDB:"c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDFDriver3.pdb" /SUBSYSTEM:NATIVE,"10.00" /Driver /OPT:REF /OPT:ICF /ENTRY:"FxDriverEntry" /RELEASE /IMPLIB:"c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDFDriver3.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X64 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 /osversion:10.0 /pdbcompress /debugtype:pdata x64\Release\Driver.obj
+  KMDF Driver3.vcxproj -> c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDFDriver3.sys
+Целевой объект "AfterGenerateAppxManifest", указанный в атрибуте AfterTargets для "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.Net.CoreRuntime.targets (68,11)", не существует в проекте и будет пропущен.
+Целевой объект "_GeneratePrisForPortableLibraries", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.Net.CoreRuntime.targets (177,11)", не существует в проекте и будет пропущен.
+Целевой объект "AfterGenerateAppxManifest", указанный в атрибуте AfterTargets для "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.NetNative.targets (126,11)", не существует в проекте и будет пропущен.
+Целевой объект "AfterGenerateAppxManifest", указанный в атрибуте AfterTargets для "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.NetNative.targets (174,11)", не существует в проекте и будет пропущен.
+Целевой объект "BeforeGenerateProjectPriFile", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (149,61)", не существует в проекте и будет пропущен.
+Проект "c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" (1) выполняет сборку "c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" (1:2) в узле 1 (целевые объекты TestSign).
+TestSign:
+  The driver will be test-signed. Driver signing options can be changed from the project properties.
+  Sign Inputs: c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDFDriver3.sys
+  C:\Program Files (x86)\Windows Kits\10\bin\x86\signtool.exe sign /ph /sha1 "84569F1B14ACC4C0946A8D6DB6F59AF6E2A92F84" 
+  Done Adding Additional Store
+  Successfully signed: c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDFDriver3.sys
+  
+  Certificate used for signing: issued to = WDKTestCert Murloc,130859094351714546 and thumbprint = 84569F1B14ACC4C0946A8D6DB6F59AF6E2A92F84
+  Exported Certificate: c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDFDriver3.cer
+Сборка проекта "c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" завершена (целевые объекты TestSign).
+ApiValidator:
+  Validating universal driver using ApiValidator.exe
+  cmd.exe /C "C:\Users\Murloc\AppData\Local\Temp\tmp2d9ee16e211a407fa1be44631c5779c6.cmd"
+  "C:\Program Files (x86)\Windows Kits\10\bin\x64\ApiValidator.exe" -DriverPackagePath:"c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\\" -SupportedApiXmlFiles:"C:\Program Files (x86)\Windows Kits\10\build\universalDDIs\x64\UniversalDDIs.xml" -ModuleWhiteListXmlFiles:"C:\Program Files (x86)\Windows Kits\10\build\universalDDIs\x64\ModuleWhiteList.xml" -ApiExtractorExePath:"C:\Program Files (x86)\Windows Kits\10\bin\x64"
+  Driver is a Universal Driver.
+DriverPackageTarget:
+  Packaging up the following projects for the following configurations:
+  
+   Configuration='' Platform=''
+  
+  
+  The following files will be packaged:
+  
+  File to package:      c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDFDriver3.sys.
+  Location in Package:  \KMDFDriver3.sys.
+  Requested by project: 
+  
+  
+  File to package:      x64\Release\KMDFDriver3.inf.
+  Location in Package:  \KMDFDriver3.inf.
+  Requested by project: 
+  
+  
+  Копирование файла из "c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDFDriver3.sys" в "c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDF Driver3\\KMDFDriver3.sys".
+  Копирование файла из "x64\Release\KMDFDriver3.inf" в "c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDF Driver3\\KMDFDriver3.inf".
+Inf2Cat:
+  C:\Program Files (x86)\Windows Kits\10\bin\x86\inf2cat.exe /os:10_x64 /driver:"c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDF Driver3\\" 
+  ........................
+  Signability test failed.
+  
+  Errors:
+  22.9.7: DriverVer set to a date in the future (postdated DriverVer not allowed) in \kmdfdriver3.inf.
+  
+  Warnings:
+  None
+C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets(1251,5): error MSB6006: "inf2cat.exe" завершилась с кодом -2. [c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj]
+Сборка проекта "c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" завершена (целевые объекты build) с ошибкой.
+
+Ошибка сборки.
+
+"c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj" (целевой объект build ) (1) ->
+(Целевой объект Inf2Cat) -> 
+  C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets(1251,5): error MSB6006: "inf2cat.exe" завершилась с кодом -2. [c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\KMDF Driver3.vcxproj]
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Затраченное время: 00:00:02.69
+
+Checking c:\Users\Murloc\documents\visual studio 2015\Projects\KMDF Driver3\KMDF Driver3\x64\Release\KMDFDriver3.inf
